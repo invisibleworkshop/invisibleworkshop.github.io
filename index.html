@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Invisible Workshop — 個人工作室，提供 App 開發與相關服務。">
+  <title>Invisible Workshop</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    header .subtitle {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 24px;
+    }
+
+    section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section p {
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    section p:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-email {
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    .privacy-policy h3 {
+      font-size: 1rem;
+      margin: 20px 0 8px;
+      color: var(--text);
+    }
+
+    .privacy-policy h3:first-of-type {
+      margin-top: 0;
+    }
+
+    .privacy-policy ul {
+      margin: 8px 0 12px 20px;
+      color: var(--muted);
+    }
+
+    .privacy-policy li {
+      margin-bottom: 6px;
+    }
+
+    .updated {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-top: 32px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Invisible Workshop</h1>
+      <p class="subtitle">隱形工作室</p>
+    </header>
+
+    <section id="about">
+      <h2>關於我們</h2>
+      <p>
+        Invisible Workshop（隱形工作室）是一個個人工作室，專注於行動 App 的設計與開發。
+        我們以簡潔、實用的產品為目標，重視使用者體驗與隱私保護。
+      </p>
+      <p>
+        如有合作、技術支援或 App 相關問題，歡迎透過下方 Email 與我們聯繫。
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>聯絡方式</h2>
+      <p>Email：</p>
+      <p class="contact-email">
+        <a href="mailto:framers.42clacks@icloud.com">framers.42clacks@icloud.com</a>
+      </p>
+    </section>
+
+    <section id="privacy-policy" class="privacy-policy">
+      <h2>隱私權政策</h2>
+      <p>
+        本隱私權政策說明 Invisible Workshop（以下簡稱「我們」）在您使用我們開發之行動應用程式
+        （以下簡稱「App」）時，如何收集、使用及保護您的個人資料。
+        使用 App 即表示您同意本政策之內容。
+      </p>
+
+      <h3>1. 資料收集</h3>
+      <p>我們可能收集以下類型的資料（依 App 實際功能而定）：</p>
+      <ul>
+        <li><strong>裝置資訊：</strong>裝置型號、作業系統版本、唯一裝置識別碼等，用於 App 正常運作與相容性。</li>
+        <li><strong>使用資料：</strong>App 使用情形、當機報告、效能資料，用於改善產品品質。</li>
+        <li><strong>您主動提供的資料：</strong>若 App 提供帳號、回饋或聯絡功能，您所填寫的 Email、名稱或訊息內容。</li>
+      </ul>
+      <p>我們不會在 App 中收集與服務無關的敏感個人資料，除非法律要求或您明確同意。</p>
+
+      <h3>2. 資料使用方式</h3>
+      <p>所收集的資料僅用於：</p>
+      <ul>
+        <li>提供、維護及改善 App 功能與使用者體驗</li>
+        <li>回覆您的詢問、支援請求或錯誤回報</li>
+        <li>分析匿名或彙整後的使用統計，以優化產品</li>
+        <li>遵守適用之法律義務</li>
+      </ul>
+
+      <h3>3. 第三方服務</h3>
+      <p>
+        App 可能使用第三方服務（例如分析、當機報告、雲端儲存或廣告平台）。
+        這些服務有其各自的隱私權政策；我們建議您一併閱讀相關條款。
+        我們不會出售您的個人資料予第三方。
+      </p>
+
+      <h3>4. 資料保存與安全</h3>
+      <p>
+        我們僅在達成上述目的所需之期間內保留資料，並採取合理之技術與管理措施保護資料安全。
+        惟網際網路傳輸無法保證百分之百安全，請您理解並自行承擔傳輸風險。
+      </p>
+
+      <h3>5. 兒童隱私</h3>
+      <p>
+        我們的 App 並非針對 13 歲（或您所在司法管轄區規定之最低年齡）以下兒童設計。
+        若我們發現無意中收集了兒童的個人資料，將儘速刪除。
+      </p>
+
+      <h3>6. 您的權利</h3>
+      <p>
+        依您所在地法律，您可能享有查詢、更正、刪除個人資料或撤回同意之權利。
+        請透過下方 Email 與我們聯繫，我們將於合理期限內回覆。
+      </p>
+
+      <h3>7. 政策變更</h3>
+      <p>
+        我們可能不定期更新本隱私權政策。更新後之版本將公布於本頁面，並註明「最後更新日期」。
+        重大變更時，我們可能透過 App 或 Email 通知您。
+      </p>
+
+      <h3>8. 聯絡我們</h3>
+      <p>
+        若對本隱私權政策或個人資料處理有任何疑問，請聯絡：
+        <a href="mailto:framers.42clacks@icloud.com">framers.42clacks@icloud.com</a>
+      </p>
+
+      <p class="updated">最後更新日期：2026 年 8 月 17 日</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Invisible Workshop. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
